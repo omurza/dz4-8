@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css@family=Exo:300,400,500,600|PT+Sans');
+/*
+    font-family: 'Exo', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+*/
+
+body.msl-black{
+    color: #637e8f;
+    background-color: #171e22;
+    font-family: 'PT Sans', sans-serif;
+}
+.msl-black h1, .msl-black h2, .msl-black h3, .msl-black h4, .msl-black h5, .msl-black h6 {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+}
+body.msl-black h1 a, body.msl-black h2 a, body.msl-black h3 a, body.msl-black h4 a, body.msl-black h5 a, body.msl-black h6 a {
+    color: #fff;
+}
+/* Paragraph Typo */
+.msl-black p{
+    /*color: #45535d;*/
+    color: #637e8f;
+}
+p a {
+    color: #fff;
+}
+/* Link Typo */
+a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.fa-play:before{margin: 0 0 0 5px;}
+body.msl-black .msl-artist-thumb{
+	background:transparent;
+}
+/**/
+.msl-black .section:before,
+.msl-black section:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #273138;
+    content: "";
+    margin: 0 auto;
+    width: 1350px;
+}
+body.msl-black .logo-light{
+	display:block;
+}
+body.msl-black .logo-drak{
+	display:none;
+}
+/*
+	  ============================================================
+		Black Version   Heading 1 Css Start
+	  ============================================================
+*/
+.msl-black .spacing-bk{
+	padding:70px 0px 50px;
+	float:left;
+	width:100%;
+}
+.msl-black .msl-heading{
+	float: left;
+	width: 100%;
+	margin: 0 0 37px;
+	border:none; 
+	overflow:hidden; 
+}
+.msl-black .msl-heading h5{
+	color: #fff;
+	font-size: 24px;
+	padding: 0px 20px 0 20px;
+	position: relative;
+	margin: 0 0 0 25px;
+	line-height: normal;
+	background-color: transparent !important;
+}
+.msl-black .msl-heading h5:after,
+.msl-black .msl-heading h5:before{
+	position: absolute;
+	top: auto;
+	bottom: 8px;
+	right: 100%;
+	left: auto;
+	height: 3px;
+	width: 300%;
+	background-color: #fff;
+	content: "";
+	min-width: 25px;
+}
+.msl-black .msl-heading h5:after{
+	left: 100%;
+	right: auto;
+}
+
+
+.msl-black .widget_categories ul,
+.msl-black  .widget-artist .artists-rank-list,
+.msl-black .widget-holiday .msl-featured-thumb,
+.msl-black .widget-recent-post .featured-thumb-list-wrap,
+.msl-black .widget-reviews .latest-reviews{
+	float: left;
+	width: 100%;
+	padding: 0 15px 30px;
+}
+.msl-black .widget_categories ul{
+	padding-bottom: 8px; 
+}
+.msl-black .msl-concert-list .text-overflow{
+	padding: 18px 160px 18px 25px;
+}
+.msl-black .msl-concert-list:after{
+	opacity: 0;
+}
+.msl-black .widget-player .jp-interface{
+	border-top:1px solid; 
+}
+.msl-black .widget-player .jp-playlist .jp-playlist-current .jp-playlist-item-cover{
+	border-color:#000; 
+}
+.msl-black .widget-player .jp-viewstate-control button, 
+.msl-black .widget-player .jp-interface{
+	background-color: transparent;
+}
+.msl-black .widget-social .msl-social{
+	padding: 0 15px 30px;
+}
+.msl-black .widget-social .msl-social a{
+	width: 45px;
+	height: 45px;
+	color: #888;
+	line-height: 45px;
+}
+.msl-black .widget-social .msl-social a:hover{
+	color: #fff;
+}
+.msl-featured-thumb3-outer,
+.msl-featured-thumb-large2-wrap .msl-featured-thumb-large2{
+	padding: 15px;
+} 
+.msl-black .concert-list2 .text-overflow{
+	padding-right: 25px;
+}
+.msl-black .blog-detail-caption .featured-title{
+	/*font-size: 30px;
+	line-height: 30px;*/
+}
+.msl-black .blog-detail-caption .blog-post-meta .blog-info *{
+	color: #fff;
+	font-size:15px; 
+}
+.msl-black .featured-title{
+	font-size: 20px;
+}
+.msl-black  .mp3-list-table li > div:before{
+	background-color: #313d46;
+}
+.msl-black .video-list-thumb figure{
+	background-color: #000 !important;
+}
+.single-video{
+	z-index: 1;
+}
+.single-video:before{
+	background-color: #313d46 !important;
+}
+.msl-black .msl-video-thumb .video-title{
+	margin: 7px 0 0;
+}
+.msl-black  .album-play-list li:hover{
+	background-color: #000;
+}
+.msl-black .artist-banner-thumb .btn-1{
+	background-color: #fff;
+}
+.msl-black .album-inner .msl-tab-nav a,
+.msl-black .music-album-wrap{
+	background-color: #313d46;
+}
+.msl-black .music-album-nav li a::before{
+	bottom: -1px;
+}
+
+/*
+	  ============================================================
+		   Black Version Colors
+	  ============================================================
+*/
+body.msl-black .upcoming-event article{
+	background: url("images/pettren_img1.png") repeat scroll 0 0%, #0f0f0f;
+}
+.msl-black .heading-2,
+.msl-black .album-list-thumb *,
+.msl-black .album-play-list li > div *,
+.msl-black .tags_wrap li.blog-info *{
+	color: #999 !important;
+}
+.msl-black .btn-1{
+	color: #171e22;
+	background-color: #45535d;
+}
+.msl-black .blog-info *{
+	color: #45535d;
+}
+.msl-black .div-border{
+	background-color: #45535d;
+}
+.msl-black .artist-bio .widget-event-info{
+	background-color: transparent !important;
+}
+/*Black Version White Color Start*/
+.msl-black .widget-contact .kode-textarea textarea::-webkit-input-placeholder, 
+.msl-black .widget-contact .kf_commet_field input[type="text"]::-webkit-input-placeholder{
+	color: #fff;
+}
+
+
+.msl-black .widget-contact .kode-textarea textarea::-moz-placeholder, 
+.msl-black .widget-contact .kf_commet_field input[type="text"]::-moz-placeholder{
+	color: #fff;
+}
+.artist-banner-thumb .clic-btn{
+
+}
+.msl-black .widget_categories ul li{
+	color:#fff;
+}
+body.msl-black .header-element-2 div.top-logo{
+	background:#273138;
+}
+body.msl-black .header-element-2 div.top-logo:before{
+	border-color: transparent #273138 transparent transparent;
+}
+
+body.msl-black .single-video{
+	background-color: #131313;
+}
+body.msl-black .video-playlist-wrap, 
+body.msl-black .video-player-contant{
+
+}
+body.msl-black .video-player-links li > div{
+	border-color:#313d46;
+}
+
+body.msl-black .video-admin-wrap h5 a,
+body.msl-black .video-title{
+	color:#fff;
+}
+body.msl-black .header-style-3 .news_items p,
+body.msl-black .left-detail h5,
+body.msl-black .top-text h5,
+body.msl-black .new-album-caption h6,
+body.msl-black .evnt-tag a,
+body.msl-black .msl-black .light-color.msl-heading span,
+body.msl-black .fpw,
+body.msl-black .ck-title,
+body.msl-black .input-felid label,
+body.msl-black .ms-heading2 h3,
+body.msl-black .ms-heading2 p,
+body.msl-black .check-points li p,
+body.msl-black .playlist_menu_bar li a,
+body.msl-black .navigation-1 ul > li > a,
+body.msl-black .kode_testimonial_content h6,
+body.msl-black .kode_blog_content h5 a,
+body.msl-black  .kode_tabs a,
+body.msl-black .widget-social .msl-social a:hover,
+body.msl-black .page-counter > span,
+body.msl-black .result-page,
+body.msl-black .widget-product-col small,
+body.msl-black .rateing a,
+body.msl-black .widget-product-col .footer_col_content p a,
+body.msl-black .main-rslider input,
+body.msl-black .main-rslider sub,
+body.msl-black .ms-categoires li:before,
+body.msl-black .ms-categoires li a,
+body.msl-black .msl-copyright p,
+body.msl-black .mp3-sort .select_dec select,
+body.msl-black .mp3-sort label,
+body.msl-black .mp3-data-list li a,
+body.msl-black .rgb-alpha-listing-nav li a,
+body.msl-black .mp3-list-table li > div *,
+body.msl-black .comment-form .submit.btn-1,
+body.msl-black .msl-concert-list .btn-1,
+body.msl-black .kf_contact_meta li span,
+body.msl-black .kf_contact_meta li p,
+body.msl-black .comment-reply-link,
+body.msl-black .comment_item .kode-author-content h5 a,
+body.msl-black .widget-player .jp-playlist .jp-playlist-current a .jp-artist,
+body.msl-black .widget-player .jp-jukebox a, 
+body.msl-black .widget-player .jp-controls button.jp-play,
+body.msl-black .msl-blog-full .text .btn-1,
+body.msl-black .kode-author-content span,
+body.msl-black .kode-author-wrap .kode-author-content p,
+body.msl-black .widget_categories ul li a,
+body.msl-black .page-numbers,
+body.msl-black .msl-concert-list:hover *,
+body.msl-black .widget-event-info li h6{
+	color: #fff;
+}
+/*Black Version White Color End*/
+.eventlist2-link .btn-1,
+.msl-black .widget-player .jp-jukebox a .jp-artist,
+.msl-black .widget-player .jp-jukebox, 
+.msl-black .widget-player .jp-jukebox .jp-viewstate-control,
+.msl-black .widget-player .jp_column-right-inner button, 
+.msl-black .widget-player .jp-controls button,
+.msl-black .widget-player .opt-ui-cover .jp-details .jp-title{
+	color: #45535d;
+}
+.msl-black .widget-player .jp-current-time, 
+.msl-black .widget-player .jp-duration{
+	color: #45535d !important;
+}
+.msl-black .widget-player .jp-controls button.jp-play{
+	background-color: #45535d;
+	border-color: #45535d;
+}
+body.msl-black .bottom-text .sec{
+	background-color: #0c0c0c;
+}
+.msl-black .blog-meta-list li a,
+.msl-black .page-result,
+.msl-black .concert-info b,
+.msl-black .timer-thumb h6{
+	color: #637e8f;
+}
+
+body.msl-black .new-album-thumb:hover .new-album-caption{
+	background-color:transparent;
+}
+body.msl-black .eventlist2-date h6{
+	color:#fff;
+}
+body.msl-black .eventlist2-link .btn-1{
+	background-color:#fff;
+}
+body.msl-black .header-style-3 .header-1st-row{
+	background-color:#273138;
+}
+body.msl-black .clic-btn span{
+	background-color:#fff;
+}
+body.msl-black .msl-artist-thumb .text.ab{
+	background-color:rgba(26,26,26,9);
+}
+body.msl-black .msl-artist-thumb:hover .text.ab{
+	background:transparent;
+}
+body.msl-black .header-style-2 div.top-logo,
+body.msl-black .header-style-2 .header-2st-row{
+	background: #171e22;
+}
+body.msl-black .header-style-2 div.top-logo:before{
+	border-color: transparent #171e22 transparent transparent;
+}
+
+body.msl-black .header-style-2 .header-1st-row{
+	background: #273138;
+}
+body.msl-black .speaker-event-content h3,
+body.msl-black .speaker-event-content span,
+body.msl-black .count-down-timer .caption-info *,
+body.msl-black .kode_event_conter_capstion h2,
+body.msl-black .like_amount p,
+body.msl-black .kf_comment_meta > span > a,
+body.msl-black ul.kf_conference li,
+body.msl-black ul.kf_conference li span,
+body.msl-black .aside_spekr_des span,
+body.msl-black .aside_spekr_des h6,
+body.msl-black .aside_widget_hdg h6,
+body.msl-black .header-style-2 .playlist_menu_bar li a,
+body.msl-black .header-style-2 .navigation-1 ul > li > a{
+	color: #fff;
+}
+
+body.msl-black .ticket-column{
+	box-shadow:0 0 1px 0 #313d46 ;
+}
+body.msl-black .count-down-timer,
+body.msl-black .ticket-column input.input-qty-type,
+body.msl-black ul.kf_conference li,
+body.msl-black .tickets,
+body.msl-black .like_page a,
+body.msl-black .kf_aside_folwer,
+body.msl-black .kf_aside_folwer ul li,
+body.msl-black .counter-meta,
+body.msl-black .kf_comment_meta > a,
+body.msl-black ul.kf_conference,
+body.msl-black .aside_widget_hdg,
+body.msl-black .aside_speaker,
+body.msl-black .aside_widget_hdg h6{
+	border-color:#313d46;
+}
+body.msl-black ul.ticket-column.secnd{
+
+}
+body.msl-black .speaker-event-content,
+body.msl-black .ticket-column input.input-qty-type,
+body.msl-black .count-down-timer,
+body.msl-black div.tickets ul,
+body.msl-black .tickets ul.ticket-column,
+body.msl-black  .counter-meta,
+body.msl-black .kode_content_wrap .widget-02,
+body.msl-black .msl-event div.white_bg,
+body.msl-black .album-detail .text,
+body.msl-black .header-2st-row,
+body.msl-black .header-element-1,
+body.msl-black .kf_music_albums figure:after,
+body.msl-black .msl-eventlist2,
+body.msl-black .new-album-thumb .new-album-caption,
+.msl-black .chosen-container-single .chosen-single div,
+.msl-black .product-items .product-content,
+.msl-black .album-list-thumb-outer.active,
+.msl-black .msl-video-thumb,
+.msl-black .video-playlist-wrap, 
+.msl-black .video-player-contant,
+.msl-black .video-list-thumb,
+.msl-black  .mp3-list-table li:hover > div:before,
+.msl-black .mp3-playlist-item-cover,
+.msl-black .tags_wrap,
+.msl-black .kode-author-wrap,
+.msl-black .timer-thumb,
+.msl-black .msl-blog-full .text,
+.msl-black .msl-featured-thumb3-outer,
+.msl-black .msl-black .widget-event-info,
+.msl-black .msl-featured-thumb3-outer,
+.msl-black .msl-black .msl-concert-list,
+.msl-black .msl-featured-thumb-large2-wrap .msl-featured-thumb-large2,
+.msl-black .msl-eventlist2 .btn-1{
+	background-color: #171e22;
+}
+
+
+.msl-black .music-album-nav,
+.msl-black .heading3,
+.msl-black .artist-bio,
+.msl-black .album-play-list,
+.msl-black  .album-list-thumb-outer,
+.msl-black .msl-video-thumb .text,
+.msl-black .video-list-thumb,
+.msl-black .tags_wrap,
+.msl-black .msl-blog-full,
+.msl-black .kode-author-wrap .kode-author,
+.msl-black .msl-event,
+.msl-black .page-numbers,.msl-black .page-result,
+.msl-black .msl-pagination-wrap,
+.msl-black .timer-thumb,
+.msl-black .loadmore,
+.msl-black .featured-thumb-list,
+.msl-black .widget-player .jp-interface,
+.msl-black .widget-social .msl-social a,
+.msl-black .msl-featured-thumb3-outer > .msl-featured-thumb{
+	border-color:#313d46;
+}
+
+body.msl-black .ticket-column li a,
+body.msl-black .count-down-timer .countdown li p{
+	color:#313d46;
+}
+
+.msl-black .chosen-container-single .chosen-single{
+	background-color:transparent;
+}
+
+/*
+	  ============================================================
+		   Black Version Styling #Black version
+	  ============================================================
+*/
+.msl-black .section:before,
+.msl-black section:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #273138;
+    content: "";
+    margin: 0 auto;
+    width: 1350px;
+}
+
+
+body.msl-black .count-down-timer .caption-info:before{
+	border-color:transparent transparent #273138;
+	border-width:0 0 126px 124px;
+}
+
+body.msl-black .caption-info{
+	background:#273138;
+}
+/*
+
+
+	  ============================================================
+		Black Version #Heading 1 Css Start
+	  ============================================================
+*/
+.msl-black .msl-heading{
+	float: left;
+	width: 100%;
+	margin: 0 0 15px;
+	border:none; 
+	overflow:hidden; 
+}
+.msl-black .msl-heading h5{
+	color: #fff;
+	font-size: 24px;
+	padding: 0px 20px 0 20px;
+	position: relative;
+	margin: 0 0 0 25px;
+	line-height: normal;
+	background-color: transparent !important;
+}
+.msl-black .msl-heading h5:after,
+.msl-black .msl-heading h5:before{
+	position: absolute;
+	top: auto;
+	bottom: 8px;
+	right: 100%;
+	left: auto;
+	height: 3px;
+	width: 300%;
+	background-color: #fff;
+	content: "";
+	min-width: 25px;
+}
+.msl-black .msl-heading h5:after{
+	left: 100%;
+	right: auto;
+}
+
+/*Widget Heading*/
+.msl-black .widget .msl-heading{
+	float: left;
+	width: 100%;
+	margin: 0 0 15px;
+	position: relative;
+	padding: 18px 25px 17px;
+	background-color: #313d46;
+}
+.msl-black .widget .msl-heading h5{
+	margin: 0;
+	float: left;
+	width: 100%;
+	overflow:hidden; 
+	padding: 0 0px 0 0;
+}
+.msl-black .widget .msl-heading h5 span{
+	float: left;
+	width: auto;
+	padding: 0 20px 0 0;
+	position: relative;
+}
+.msl-black .widget .msl-heading h5 span:before{
+	top: auto;
+	left: 100%;
+	bottom: 5px;
+	right: auto;
+	height: 3px;
+	content: "";
+	width: 300%;
+	position: absolute;
+	background-color: #fff;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.msl-black .widget_categories ul,
+.msl-black  .widget-artist .artists-rank-list,
+.msl-black .widget-holiday .msl-featured-thumb,
+.msl-black .widget-recent-post .featured-thumb-list-wrap,
+.msl-black .widget-reviews .latest-reviews{
+	float: left;
+	width: 100%;
+	padding: 0px;
+}
+.msl-black .widget_categories ul{
+	padding-bottom: 8px; 
+}
+.msl-black .msl-concert-list .text-overflow{
+	padding: 18px 160px 18px 25px;
+}
+.msl-black .msl-concert-list:after{
+	opacity: 0;
+}
+.msl-black .widget-player .jp-interface{
+	border-top:1px solid; 
+}
+.msl-black .widget-player .jp-playlist .jp-playlist-current .jp-playlist-item-cover{
+	border-color:#000; 
+}
+.msl-black .widget-player .jp-viewstate-control button, 
+.msl-black .widget-player .jp-interface{
+	background-color: transparent;
+}
+.widget.widget-social .msl-social{
+	padding: 0px 15px 0;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+aside .widget.widget-social{
+	padding-bottom:29px;
+}
+.msl-black .widget-social .msl-social a{
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	line-height: 45px;
+}
+.msl-black .kode_event_content h4,
+.msl-black .heading_ho2 h3{
+	color:#fff;
+}
+.msl-black .kode_tabs li.active a{
+	background-color:transparent;
+}
+.msl-black .kode_event{
+	background-color:#171e22;
+}
+.msl-featured-thumb3-outer,
+.msl-featured-thumb-large2-wrap .msl-featured-thumb-large2{
+	padding: 15px;
+} 
+.msl-black .concert-list2 .text-overflow{
+	padding-right: 25px;
+}
+.msl-black .blog-detail-caption .featured-title{
+	/*font-size: 30px;
+	line-height: 30px;*/
+}
+.msl-black .blog-detail-caption .blog-post-meta .blog-info *{
+	color: #fff;
+	font-size:15px; 
+}
+.msl-black .featured-title{
+	font-size: 20px;
+}
+.msl-black  .mp3-list-table li > div:before{
+	background-color: #313d46;
+}
+.msl-black .video-list-thumb figure{
+	background-color: #000 !important;
+}
+.single-video{
+	z-index: 1;
+}
+.single-video:before{
+	background-color: #313d46 !important;
+}
+.msl-black .msl-video-thumb .video-title{
+	margin: 7px 0 0;
+}
+.msl-black  .album-play-list li:hover{
+	background-color: #000;
+}
+.msl-black .artist-banner-thumb .btn-1{
+	background-color: #fff;
+}
+.msl-black .album-inner .msl-tab-nav a,
+.msl-black .music-album-wrap{
+	background-color: #313d46;
+}
+.msl-black .music-album-nav li a::before{
+	bottom: -1px;
+}
+body.msl-black .latest-album article .text{
+	background:#171e22;
+}
+.msl-black .overlay:before {
+    width: 100%;
+    z-index: -1;
+}
+.msl-black .overlay:before {
+	background-color:#000;
+}
+.msl-black .open_player{
+	background-color:#171e22;
+}
+.msl-black .kf_blog_detail_des blockquote p,
+.msl-black .kf_blog_detail_des ul li a,
+.msl-black ul.kf_social_icon > li > a,
+.msl-black .login_field h6,
+.msl-black .modal-title,
+.msl-black .kode_blog_content h5 a,
+.msl-black .kode_event_content h4 a{
+	color:#fff;
+}
+.msl-black .kode_artist_content,
+.msl-black  .kode_testimonial_slider .slick-dots li.slick-active button,
+.msl-black .kode_testimonial_content,
+.msl-black .kode_blog_content{
+	background-color:#171e22;
+}
+
+.msl-black .meta_quote li a b,
+.msl-black .meta_quote li span,
+.msl-black .product-content h4 a,
+.msl-black .kode_artist_content h3,
+.msl-black .modal-body p,
+.msl-black  .kode_testimonial_content p,
+.msl-black  .kode_testimonial_content h6,
+.msl-black .kode_blog_content p{
+	color:#fff;
+}
+
+.msl-black  .open_player .jp-playlist ul.mCustomScrollbar li{
+	background-color:#333333;
+}
+.msl-black  .kode_event{
+	box-shadow:3px -4px 6px -10px #cccccc;
+}
+.msl-black  .kode_tabs {
+    border-bottom: 1px solid #333333;
+    border-top: none;
+}
+.msl-black .open_player .jp-playlist ul.mCustomScrollbar li{
+	background-color:#171e22;
+}
+/*
+	====================================
+			Back version style
+	====================================
+*/
+body.msl-black div.msl-black .light-color.msl-heading h5:after, 
+body.msl-black div.msl-black .light-color.msl-heading h5:before{
+	background-color:#fff;
+}
+body.msl-black .header-style-3 .header-2st-row.align-center-nav .container{
+	background:#273138;
+}
+body.msl-black .header-style-3 .header-2st-row.align-center-nav{
+	background:transparent;
+}
+body.msl-black .header-style-3 .header-2st-row{
+	background:#171e22;
+}
+body.msl-black .header-element-2 .breaking-news-column p,
+body.msl-black .header-style-4 .news_items p,
+body.msl-black .header-style-4 .news_items p:before,
+body.msl-black .header-style-3 .social-icons ul li a,
+body.msl-black .header-style-3 .social-icons > strong{
+	color:#fff;
+}
+body.msl-black .header-style-4 .center-logo,
+body.msl-black .header-style-4 .header-2st-row,body.msl-black .header-style-4 .header-1st-row{
+	background:transparent;
+}
+body.msl-black .check-points li{
+	margin-bottom:5.5px;
+}
+.list-style1{
+	float:left;
+	width:100%;
+}
+body.msl-black .latest-album article .text .icon-plus,
+body.msl-black .featured-artist .user-text .sec{
+	background:#131313;
+}
+body.msl-black .ms_width_off50.bg-trans{
+	background:#273138;
+}
+body.msl-black .user-text a.user-icon,
+body.msl-black .ms_width_off50{
+	background:#171e22;
+}
+
+
+body.msl-black .artists-rank{
+	background-color:#171e22;
+}
+body.msl-black .mg-bottom,
+body.msl-black .featured-thumb-list,
+body.msl-black .album-list-thumb-outer,
+body.msl-black .featured-thumb-list,
+body.msl-black .widget-player{
+	background:#171e22;
+}
+/*
+	====================================
+			Back version style ends
+	====================================
+*/

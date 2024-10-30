@@ -1,0 +1,574 @@
+/*
+	  ============================================================
+		   Font Color
+	  ============================================================
+*/
+.kf_blog_detail_des ul li:hover a,
+.ticket-column:hover li span,
+.navigation-1 > ul > li.active > a,
+.navigation-1 > ul > li:hover > a,
+	/*   Home 2 */
+.footer_col_content p a:hover,
+.footer_content_tweets p small,
+.footer_content_tweets p a,
+.footer-title strong,
+ol.meta_quote li a,
+ol.meta_quote li i,
+.kode_social_icons li:hover a,
+.kode_tabs li:hover a,
+.kode_tabs li.active a,
+.open_player .jp-controls button:before,
+.open_player .jp-controls button.jp-play:before,
+.kode_event:hover .kode_event_date h3,
+.kode_event:hover .kode_event_date h3 small,
+.effect figure a:hover,
+.social_icons li a b,
+.kf_header_navigation .navigation ul > li > .children li a,
+.bgcolr-default:hover,
+.kf_meta_tags span i,
+	/*   Home 1 */
+.kf_header_navigation nav .mega_albume_text a,
+.mega_slide_albume h5,
+.mega_text h6 a:hover,
+.mega_albume_text h5 a,
+.mega_text h5,
+.msl-black .comment_item .kode-author-content h5:hover a,
+.msl-black .tags_wrap li.blog-info *:hover,
+.artists-rank:hover .rank-no,
+.msl-eventlist2:hover .btn-1,
+.music-album-nav li a:hover,
+.play-list-icon a:hover,
+.play-list-icon span:hover,
+.msl-blog-full:hover .blog-title a,
+.artists-rank:hover h6 a,
+.slick-arrow:hover,
+.theme-font,
+.loadmore a,
+.concert-title:hover a,
+.comment-reply-link:hover,
+.admin-post h6 a,
+.mp3-data-list li a:hover,
+.msl-video-thumb:hover .video-icon,
+.msl-video-thumb:hover .video-title a,
+.msl-pagination .page-numbers.active,
+.msl-pagination .page-numbers:hover,
+.heading3 h4 i,
+.blog-info a:hover,
+.play-list-title i,
+.page-result:hover,
+.msl-tab-nav li a:hover,
+.msl-artist-thumb .artist-title:hover a,
+.msl-tab-nav li.active a,
+.video-admin-wrap h5:hover a,
+.kf_contact_meta li:hover span,
+.widget_categories ul li a:hover,
+.tags_wrap .msl-social a:hover,
+.blog-meta-list li a:hover,
+.msl-event:hover .event-title a,
+.kode-author-content h5:hover a,
+.rgb-alpha-listing-nav li a:hover,
+.video-player-links li div:hover a,
+.msl-featured-thumb:hover > .text .featured-title a,
+.widget-player .jp-state-muted .jp-mute::before,
+.widget-player .jp-state-looped .jp-repeat::before,
+.main_banner .thumb:hover .album-title a,
+.widget-player .opt-ui-cover .jp-details .jp-title span,
+.top-player .jp-state-playing button.jp-play::before,
+.top-player .jp-playlist li:hover *,
+.top-player .jp-state-muted .jp-mute::before,
+.top-player .jp-state-playlist .jp-show-playlist::before,
+.top-player .jp-state-shuffled button.jp-shuffle::before,
+.top-player .jp-state-looped .jp-repeat::before,
+.music-album-nav li.active a,
+.ms-categoires li:hover a,
+.ms-categoires li:hover:before,
+.product-items .product-content h4 a:hover,
+.product-content span,
+.widget-heading h4
+{
+	color:#db152e ;
+}
+/*
+	  ============================================================
+		   Background Color
+	  ============================================================
+*/
+
+.pagination > li > a:hover,
+.pagination > li.active:hover a,
+.pagination > li.active a,
+.ticket-column:hover li a,
+.instagram-link:hover,
+.kf_comment_meta > span:hover > a,
+ul.kf_social_icon > li:hover a,
+.select-column .chosen-container.chosen-container-single.chosen-with-drop.chosen-container-active .active-result.highlighted,
+.select-column .active-result.result-selected:hover,
+.select-column .active-result.result-selected,
+.select-column .active-result.result-selected.highlighted,
+.effect-3d > span > span span:nth-of-type(2),
+.main-rslider .ui-slider-horizontal .ui-slider-range,
+.main-rslider .ui-slider-horizontal .ui-slider-handle,
+.btn-normal2,
+.btn-normal:hover,
+/*   Home 2 */
+.footer_copyright,
+.subscribe_form button,
+.kode_testimonial_slider .slick-dots li button,
+.kode_video_content button:hover,
+.kode_artist_hover,
+.open_player .jp-playlist ul.mCustomScrollbar li.jp-playlist-current,
+.open_player .jp-playlist ul.mCustomScrollbar li:hover,
+.kode_event:hover .kode_event_content .active,
+.kode_event .kode_event_content .btn_normal:hover,
+.effect figure:before,
+.social_media_icons,
+.border_btn:hover,
+.kf_header_navigation .navigation ul > li > .children li:hover a:before,
+.kf_header_rock:before,
+.radio_btn:hover,
+.kf_header_navigation:before,
+.bgcolr-default,
+/*   Home 1 */
+.mega_fig .play_icon,
+.flicker-link a.btn-1,
+.artists-rank figure,
+.msl-black .msl-concert-list .btn-1,
+.msl-black .widget-player .jp-playlist li.jp-playlist-current,
+.new-album-thumb:hover,
+.msl-eventlist2:before,
+/**/
+.overlay_1,
+.dl-menuwrapper ul li a:hover,
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active,
+.mp3-list-table li:hover .mp3-playlist-item-cover,
+.masonry-thumb figure,
+.msl-video-thumb figure,
+.msl-featured-thumb figure,
+.msl-heading h5,
+.sub-banner:before,
+.blog-title:before,
+.msl-event figure,
+.msl-social a:hover,
+.top-player .jp-play-bar,
+.msl-blog-full:hover .btn-1,
+.music-album-nav li a:before,
+.msl-concert-list figure:before,
+.msl-artist-thumb figure:before,
+.msl-pagination .page-numbers:before,
+.artist-banner-thumb .btn-1.theme-bg,
+.widget-player .jp-seek-bar .jp-play-bar,
+.album-list-thumb-outer.active .album-list-thumb:before,
+.artist-bio .widget-event-info .msl-social a:hover,
+.main_banner .slick-dots .slick-active button,
+.top-player .jp-playlist li.jp-playlist-current,
+.widget-player .jp-state-playing button.jp-play,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover,
+.msl-featured-thumb3-outer > .msl-featured-thumb .text .btn-1:hover,
+.theme-bg,
+.kf_aside_twitter,
+.counter-meta,
+.login_btn .submit:hover,
+.blog_img_year,
+body.msl-black .pagination > li.active > a
+{
+	background-color:#db152e;
+}
+/*
+	  ============================================================
+		   Border Color
+	  ============================================================
+*/
+.albums-tables ul .play-btn a,
+.kf_blog_detail figure,
+.blog_img_year:before,
+.product-items:hover:after,
+.product-items:hover:before,
+.navigation-1 > ul > li:hover:before,
+.navigation-1 > ul > li:hover:after,
+.navigation-1 > ul > li.active:before,
+.navigation-1 > ul > li.active:after,
+/*   Home 2 */
+footer.footer_section,
+.kode_testimonial_content,
+div.kode_blog_content,
+.kode_social_icons li:hover a,
+div.kode_artist_content h3:before,
+ul.kode_tabs li:hover a,
+ul.kode_tabs li.active a,
+.open_player .jp-controls button:before,
+.open_player .jp-controls button.jp-play,
+div.kf_music_albums figure,
+div.heading_ho2 h3:before,
+div.heading_ho2 h3:after,
+header.kf_header_rock,
+/*   Home 1 */
+.kf_header_navigation .navigation ul li > .children,
+.navigation ul li .children,
+.mega_fig figure:hover,
+.mega_fig .play_icon,
+.artists-rank:hover figure,
+/**/
+.navigation .mega_content,
+.video-admin-img,
+.kode-comments li:hover .children .kode-author,
+.kf_commet_field input:focus,
+textarea:focus,
+.page-result:hover,
+.slick-arrow:hover,
+.msl-concert-list figure,
+.widget-player .jp-interface,
+.main_banner .thumb:hover figure,
+.jp-state-playing button.jp-play,
+.kf_contact_meta li:hover span,
+.mp3-playlist-item-cover .img-holder,
+.widget-player .jp-playlist .jp-playlist-item-cover,
+.widget-player .jp-state-playing button.jp-play,
+.theme-bdr
+{
+	border-color:#db152e;
+}
+
+.instagram-link:hover,
+.kf_comment_meta span:hover a i,
+.kf_comment_meta span:hover a,
+.border_btn:hover,
+.radio_btn:hover,
+.bgcolr-default,
+.msl-black .msl-copyright p,
+.msl-black .mp3-sort .select_dec select,
+.msl-black .mp3-sort label,
+.msl-black .mp3-data-list li a,
+.msl-black .rgb-alpha-listing-nav li a,
+.msl-black .mp3-list-table li > div *,
+.msl-black .comment-form .submit.btn-1,
+.msl-black .msl-concert-list .btn-1,
+.msl-black .kf_contact_meta li span,
+.msl-black .kf_contact_meta li p,
+.msl-black .comment-reply-link,
+.msl-black .comment_item .kode-author-content h5 a,
+.msl-black .widget-player .jp-playlist .jp-playlist-current a .jp-artist,
+.msl-black .widget-player .jp-jukebox a, 
+.msl-black .widget-player .jp-controls button.jp-play,
+.msl-black .msl-blog-full .text .btn-1,
+.msl-black .kode-author-content span,
+.msl-black .kode-author-wrap .kode-author-content p,
+.msl-black .widget_categories ul li a,
+.msl-black .page-numbers,
+.msl-black .msl-concert-list:hover *,
+.msl-black .widget-event-info li h6{
+	color: #fff;
+}
+
+.music-top-chart-list:after,
+.instagram-link,
+.msl-black .album-list-thumb-outer.active,
+.msl-black .msl-video-thumb,
+.msl-black .video-playlist-wrap, 
+.msl-black .video-player-contant,
+.msl-black .video-list-thumb,
+.msl-black  .mp3-list-table li:hover > div:before,
+.msl-black .mp3-playlist-item-cover,
+.msl-black .tags_wrap,
+.msl-black .kode-author-wrap,
+.msl-black .timer-thumb,
+/*.msl-black .widget,*/
+.msl-black .msl-blog-full .text,
+.msl-featured-thumb3-outer,
+.msl-black .widget-event-info,
+.msl-featured-thumb3-outer,
+.msl-black .msl-concert-list,
+.msl-featured-thumb-large2-wrap .msl-featured-thumb-large2,
+.msl-eventlist2 .btn-1{
+	background-color: #171e22;
+}
+
+ul.kf_social_icon > li:hover a,
+.msl-black .music-album-nav,
+.msl-black .heading3,
+.msl-black .artist-bio,
+.msl-black .album-play-list,
+.msl-black  .album-list-thumb-outer,
+.msl-black .msl-video-thumb .text,
+.msl-black .video-list-thumb,
+.msl-black .tags_wrap,
+.msl-black .msl-blog-full,
+.msl-black .kode-author-wrap .kode-author,
+.msl-black .msl-event,
+.msl-black .page-numbers,.msl-black .page-result,
+.msl-black .msl-pagination-wrap,
+.msl-black .timer-thumb,
+.msl-black .featured-thumb-list,
+.msl-black .widget-player .jp-interface,
+.msl-black .widget-social .msl-social a,
+.msl-featured-thumb3-outer > .msl-featured-thumb{
+	border-color:#313d46;
+}
+
+
+/*
+	  ============================================================
+		   Transition
+	  ============================================================
+*/
+.footer_col_content p a,
+.mega_fig figure,
+.mega_text h6 a,
+.navigation .mega_content,
+.mega_albume figure img,
+.mega_fig .play_icon,
+.latest-album article .left-sec h6 a,
+.latest-album article figure:before,
+.latest-album article .webkit.text > a,
+.featured-artist.dj-listing article figure,
+input,
+textarea,
+.artists-rank .rank-no,
+.msl-eventlist2:before,
+.msl-eventlist2:after,
+.btn-1,
+.play-list-icon span,
+.kode-author,
+.comment-reply-link,
+.page-result,
+.video-icon,
+.navigation a,
+.dl-menuwrapper button,
+.dl-menuwrapper ul li a,
+.mp3-data-list li a,
+.video-player-links li div a,
+.rgb-alpha-listing-nav li a,
+.page-numbers:before,
+.blog-meta-list li a,
+.album-list-thumb:before,
+.page-numbers,
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,
+.flicker-link,
+.mp3-list-table li > div:before,
+.mp3-list-table li > div *,
+.blog-info a,
+.kf_contact_meta li span,
+.msl-social a,
+.msl-tab-nav li a,
+.msl-concert-list,
+.ms-categoires li a,
+.ms-categoires li:before,
+.msl-artist-thumb,
+.slick-dots button,
+.main_banner figure,
+.msl-concert-list *,
+.music-album-nav li a,
+.msl-artist-thumb .text,
+.msl-concert-list:after,
+.msl-concert-list:before,
+.msl-concert-list figure,
+.msl-artist-thumb .text p,
+.top-player .jp-playlist li,
+.music-album-nav li a:before,
+.msl-artist-thumb figure img,
+.top-player .jp-playlist li *,
+.msl-concert-list figure:before,
+.msl-artist-thumb figure:before,
+.widget_categories ul li a:before,
+.widget_categories ul li a,
+.select-column .active-result.highlighted,
+.select-column .active-result.result-selected:hover,
+.select-column .active-result.result-selected,
+.select-column .active-result.result-selected.highlighted,
+.new-album-thumb,
+.eventlist2-heading h5 a,
+.evnt-tag a,
+.eventlist2-date h6,
+.new-album-thumb img,
+.new-album-caption,
+.new-album-caption *,
+.pic-holder:before,
+.instagram-link,
+ul.kf_social_icon > li > a,
+.kf_comment_meta > span > a,
+.music-top-chart-list figure:before,
+.music-top-chart-list figure:after,
+.music-top-chart-list:after,
+.pagination > li > a:hover,
+.pagination > li a,
+.albums-tables .play-btn,
+.pagination > li.active a,
+figure img
+{
+	-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+			-ms-transition:all 0.3s ease-in-out;
+				-o-transition:all 0.3s ease-in-out;
+					transition:all 0.3s ease-in-out;	
+}
+
+.navigation ul > li:before, 
+.navigation ul > li:after, 
+.navigation ul ul, figcaption, 
+figure .social-network, 
+.featured-artist article figure figcaption:before, 
+.user-text, .user-text a.user-icon, 
+.user-text .sec, 
+.tag-cloud a, .table tbody tr, 
+.latest-album article figure::before, 
+.latest-album article .text .icon-plus, .latest-album article .text, 
+.widget-category, .widget-category ul li a, 
+.widget-archive ul li, .anker-plus, 
+.blog-listing article .text p a, 
+.event-orgnizer article figure figcaption, 
+.event-orgnizer article .text, .pagination ul li a, 
+.featured-artist.dj-listing article figure img, 
+.featured-artist.dj-listing article figure, 
+.gallery-page article figure img, .pro-detail, 
+.portfolio-filter ul li div figcaption,
+
+.kode_social_icons li a,
+.kode_artist_hover,
+.open_player .jp-playlist ul.mCustomScrollbar li,
+.kode_tabs li a,
+.kode_tabs li.active a,
+.kode_event .kode_event_date h3,
+.kode_event,
+.kode_event .kode_event_date h3 small,
+.bk_border_btn,
+.effect figure a,
+.effect figure:before,
+.social_icons li a:before,
+.social_icons li a b,
+.social_icons li a i,
+.social_icons li a,
+.border_btn,
+.kf_header_navigation .navigation ul > li > .children li a:before,
+.bgcolr-default,
+.radio_btn,
+.meta_quote li a,
+.subscribe_form button,
+.kode_artist_hover,
+.kode_video_content button,
+.kode_blog_column figure img,
+.grid a:before,
+.kf_header_navigation nav > ul > li:before,
+.btns-effects,
+.product-items figure figcaption,
+.product-items ul li,
+.product-items,
+.product-items:after,
+.product-items:before,
+.btn-normal,
+.flicker-link a.btn-1,
+.kode_demos li a:before,
+.kode_demos span,
+.hover-3d .btns-effects li,
+.hover-3d .btns-effects,
+.hover-3d .btns-effects li:last-child, 
+.btns-effects li:last-child,
+.kf_music_albums figure:after,
+.ticket-column li a,
+.ticket-column li span,
+.kf_blog_detail_des ul li a,
+.music-top-chart-des,
+.music-top-chart-hover,
+.music-top-chart-list:before,
+.product-items figure figcaption,
+.product-items figure img{
+
+	-webkit-transition:all 0.4s ease-in-out;
+		-moz-transition:all 0.4s ease-in-out;
+			-ms-transition:all 0.4s ease-in-out;
+				-o-transition:all 0.4s ease-in-out;
+					transition:all 0.4s ease-in-out;		
+
+}
+
+
+.navigation-1 ul li a,
+.navigation-1 ul li,
+.navigation-1 ul li ul{
+
+
+	-webkit-transition:all 0.2s ease-in-out;
+		-moz-transition:all 0.2s ease-in-out;
+			-ms-transition:all 0.2s ease-in-out;
+				-o-transition:all 0.2s ease-in-out;
+					transition:all 0.2s ease-in-out;
+}
+
+
+
+
+
+/*
+	  ============================================================
+		   Navigation Default Color
+	  ============================================================
+*/
+div.albums-tables ul li .like-btns span,
+div.albums-tables ul li .play-btn a,
+.navigation > ul > li:hover > a,
+.navigation ul li.active > a{
+    color:#db152e;
+}
+.dl-menuwrapper li a:hover,
+.navigation ul li .children li:hover > a{
+   background:#db152e;
+}
+
+
+
+
+/*
+	  ============================================================
+		   Black Version Colors
+	  ============================================================
+*/
+.msl-black .heading-2,
+.msl-black .album-list-thumb *,
+.msl-black .album-play-list li > div *,
+.msl-black .tags_wrap li.blog-info *{
+	color: #fff !important;
+}
+body.msl-black .eventlist2-link .btn-1{
+	color: #171e22;
+	/*background-color: #eee ; /*#45535d;*/
+}
+
+.msl-black .div-border{
+	background-color: #45535d;
+}
+.msl-black .artist-bio .widget-event-info{
+	background-color: transparent !important;
+}
+/*Black Version White Color Start*/
+.msl-black .widget-contact .kode-textarea textarea::-webkit-input-placeholder, 
+.msl-black .widget-contact .kf_commet_field input[type="text"]::-webkit-input-placeholder{
+	color: #fff;
+}
+.msl-black .widget-contact .kode-textarea textarea::-moz-placeholder, 
+.msl-black .widget-contact .kf_commet_field input[type="text"]::-moz-placeholder{
+	color: #fff;
+}
+
+
+.msl-black .blog-info *,
+.msl-black .blog-meta-list li a,
+.msl-black .page-result,
+.msl-black .concert-info b,
+.msl-black .timer-thumb h6,
+/*Black Version White Color End*/
+.eventlist2-link .btn-1,
+.msl-black .widget-player .jp-jukebox a .jp-artist,
+.msl-black .widget-player .jp-jukebox, 
+.msl-black .widget-player .jp-jukebox .jp-viewstate-control,
+.msl-black .widget-player .jp_column-right-inner button, 
+.msl-black .widget-player .jp-controls button,
+.msl-black .widget-player .opt-ui-cover .jp-details .jp-title{
+	color: #eee ; /*#45535d;*/
+}
+.msl-black .widget-player .jp-current-time, 
+.msl-black .widget-player .jp-duration{
+	color: #45535d !important;
+}
+.msl-black .widget-player .jp-controls button.jp-play{
+	background-color: #45535d;
+	border-color: #45535d;
+}

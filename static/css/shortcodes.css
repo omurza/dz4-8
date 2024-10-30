@@ -1,0 +1,975 @@
+/* Button 1*/
+.btn-1{
+	width: auto;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: normal;
+	display: inline-block;
+	padding: 10px 30px 10px;
+	text-transform: capitalize;
+}
+.btn-1:hover{
+	color: #fff;
+}
+.artist-banner-thumb .btn-1:hover,
+.comment-form .submit.btn-1:hover,
+.msl-concert-list .btn-1.theme-bg:hover{
+	background-color: #000 !important;
+	color: #fff;
+}
+/*
+	  ============================================================
+		   Heading 1 Css Start
+	  ============================================================
+*/
+.msl-heading{
+	float: left;
+	width: 100%;
+	margin: 0 0 40px;
+	border-top:1px solid #e1e1e1;
+}
+.msl-heading h5{
+	float: left;
+	width: auto;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: capitalize;
+	border-radius: 0 0 5px 5px;
+}
+/*
+	  ============================================================
+		   Music Tab Css Start
+	  ============================================================
+*/
+.msl-tab-nav{
+	float: left;
+	width: 100%;
+	border:none;
+}
+.msl-tab-nav li{
+	float: left;
+	width: auto;
+	margin: 0 0 0 15px;
+}
+.msl-tab-nav li:first-child{
+	margin-left:0;
+}
+.msl-tab-nav li a{
+	margin: 0;
+	color: #666;
+	float: left;
+	border:none;
+	width: auto;
+	padding: 14px 0 13px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.msl-heading .msl-tab-nav{
+	float: right;
+	width: auto;
+}
+/*
+	  ============================================================
+		   Blog Post Meta Css End
+	  ============================================================
+*/
+.blog-post-meta{
+	float: left;
+	width: 100%;	
+}
+.blog-post-meta .blog-info{
+	float: left;
+	width: auto;
+}
+.blog-post-meta .blog-info{
+	margin-right: 25px;
+}
+.blog-post-meta .blog-info i{
+	margin: 0 0 0 10px;
+}
+.blog-post-meta .blog-info:last-child{
+	margin: 0;
+}
+.blog-info a,
+.blog-info span{
+	float: left;
+	width: auto;
+	color: #888;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: capitalize;
+}
+.blog-admin a{
+	color: #333;
+	font-weight: bold;
+}
+.blog_meta li a i,
+.blog_meta li span i{
+	margin-right: 10px;
+}
+.blog_meta .heart i{
+	color: #fe0000;
+}
+.sep{
+	margin: 0 3px;
+}
+.msl-label{
+	width: auto;
+	color: #fff;
+	font-size: 14px;
+	padding: 4px 20px;
+	line-height: normal;
+	display: inline-block;
+}
+/*
+  	============================================================
+		   Lables Style  Start 
+   	============================================================
+*/
+/*Lable 1*/
+.lable_1{
+	width: auto;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	display: inline-block;
+	padding: 7px 17px 8px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+/*Lable 2*/
+.label2{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	line-height: normal;
+	padding: 5px 12px 6px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+/*
+  	============================================================
+		   Input Style 1  Start 
+   	============================================================
+*/
+.kode-textarea,
+.select_dec,
+.input_dec{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.select_dec{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+}
+.select_dec::before {
+    top: 50%;
+    right: 25px;
+    color: #a4a3a3;
+    font-size: 24px;
+    content: "\f107";
+    font-weight: bold;
+    margin-top: -16px;
+    position: absolute;
+    font-family: "FontAwesome";
+}
+.kf_commet_field input[type="text"],
+.input_textarea textarea,
+.select_dec select,
+.kode-textarea textarea,
+.input_dec input[type="text"]{
+	float: left;
+	width: 100%;
+	text-align: left;
+	min-height: 48px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	padding: 14px 25px 15px;
+	border: 1px solid #d7d7d7;
+	text-transform: capitalize;
+	background-color: #fff;
+}
+.select_dec select {
+    border-radius:0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -moz-border-radius:0px; 
+    -webkit-border-radius:0px; 
+}
+.select_dec select option{
+	color: #666;
+	font-size: 14px;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.input_textarea{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.kode-textarea textarea,
+.input_textarea textarea{
+	height: 170px;
+	resize:none;
+}
+.kode-left-comment-sec,
+.input_dec_divider{
+	margin: 0 -15px;
+}
+.kode-left-comment-sec .kf_commet_field,
+.input_dec_divider .input_dec{
+	float: left;
+	width: 50%;
+	padding:0 15px;
+}
+.input_label{
+	overflow: hidden;
+	position: relative;
+}
+.kode-textarea textarea:-webkit-input-placeholder,
+.kf_commet_field input:-webkit-input-placeholder{
+    color: #888;
+    opacity: 1;
+}
+.kode-textarea textarea::-moz-placeholder,
+.kf_commet_field input::-moz-placeholder{
+    color: #888;
+    opacity: 1;
+}
+.submit.btn-1{
+	border:none;
+}
+/*
+	  ============================================================
+		   Music Social Css Start
+	  ============================================================
+*/
+.msl-social{
+	float: left;
+	width: auto;
+}
+.msl-social li{
+	float: none;
+	width: auto;
+	margin: 0 6px -5px;
+	display: inline-block;
+}
+.msl-social li:first-child{
+	margin-left:0; 
+}
+.msl-social li:last-child{
+	margin-right:0; 
+}
+.msl-social a{
+	float: left;
+	width: 42px;
+	color: #fff;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	text-align: center;
+	border:1px solid #cccccc;
+}
+.msl-social a i{
+	margin: 0;
+}
+.msl-social a:hover{
+	color: #fff;
+}
+.tags_wrap .msl-social li{
+	background:transparent;
+}
+.tags_wrap .msl-social li.fb a{
+	color:#005397;
+}
+.tags_wrap .msl-social li.tw a{
+	color:#00aedd;
+}
+.tags_wrap .msl-social li.lkd a{
+	color:#005397;
+}
+.tags_wrap .msl-social li.yt a{
+	color:#880037;
+}
+.tags_wrap .msl-social li.igm a{
+	color:#dd0061;
+}
+.tags_wrap .msl-social li.pst a{
+	color:#880037;
+}
+.fb{
+	background-color:#005397;
+}
+.tw{
+	background-color:#00aedd;
+}
+.lkd{
+	background-color:#005397;
+}
+.yt{
+	background-color:#880037;
+}
+.igm{
+	background-color:#dd0061;
+}
+.pst{
+	background-color:#880037;
+}
+/*Social Radius Start*/
+.social-radius li a{
+	width: 28px;
+	height: 28px;
+	font-size: 11px;
+	line-height: 28px;
+	border-radius: 100%;
+}
+/*Social Radius End*/
+/*Editor Label Start*/
+.editor-label{
+	top: 20px;
+	left: 20px;
+	color: #fff;
+	font-size: 15px;
+	position: absolute;
+	padding: 5px 15px 4px;
+	background-color: #292e32;
+	text-transform: capitalize;
+}
+.editor-label i{
+	margin: 0 10px 0 0;
+}
+/*Editor Label End*/
+.rating-wrap {
+    float: left;
+    width: 100%;
+    line-height: 14px;
+}
+.rating_down {
+    background-image: url("../images/stars1.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    display: inline-block;
+    float: none;
+    height: 14px;
+    width: 80px;
+}
+.rating_up {
+    background-image: url("../images/stars1.png");
+    background-position: 0 -17px;
+    background-repeat: repeat-x;
+    display: inline-block;
+    float: left;
+    height: 100%;
+}
+/*
+	  ============================================================
+		   Blog Meta List Start
+	  ============================================================
+*/
+.blog-meta-list{
+	float: left;
+	width: 100%;
+}
+.blog-meta-list li{
+	float: left;
+	width: auto;
+	color: #888;
+	font-size: 15px;
+	margin: 0 0 0 15px;
+}
+.blog-meta-list li:first-child{
+	margin-left:0; 
+}
+.blog-meta-list li a{
+	color: #888;
+}
+.blog-meta-list li i{
+	margin: 0 10px 0 0;
+}
+/*
+	  ============================================================
+		   Date Box Css Start
+	  ============================================================
+*/
+.date-box{
+	float: left;
+	color: #fff;
+	width: 64px;
+	height: 64px;
+	padding: 7px 0;
+	text-align: center;
+}
+.date-box b{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	margin: 0 0 -6px;
+	line-height: normal;
+}
+.date-box span{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+}
+/*
+	  ============================================================
+		   Dropdown Css Start
+	  ============================================================
+*/
+.dropdown-menu li{
+	margin:0; 
+	float: left;
+	width: 100%;
+	border-bottom:1px solid #c6c6c6;
+}
+.dropdown-menu li:last-child{
+	border:none;
+}
+.dropdown-menu li a{
+	margin:0;
+	float: left;
+	width: 100%;
+	padding:10px 15px;
+}
+.nav-tabs .dropdown-menu{
+	left: auto;
+	right: 0;
+}
+/*
+	  ============================================================
+		   Figure Hover Effect Css Start
+	  ============================================================
+*/
+.new-album-thumb:hover figure img,
+.masonry-thumb:hover figure img,
+.msl-event:hover > figure img,
+.msl-video-thumb:hover > figure img,
+.msl-featured-thumb:hover > figure img{
+	opacity: 0.5;
+	transform: scale(1.2) rotate(5deg);
+	-o-transform: scale(1.2) rotate(5deg);
+	-ms-transform: scale(1.2) rotate(5deg);
+	-moz-transform: scale(1.2) rotate(5deg);
+	-webkit-transform: scale(1.2) rotate(5deg);
+}
+img{
+		-webkit-transition:all 0.6s ease-in-out;
+		-moz-transition:all 0.6s ease-in-out;
+			-ms-transition:all 0.6s ease-in-out;
+				-o-transition:all 0.6s ease-in-out;
+					transition:all 0.6s ease-in-out;
+}
+/*
+	  ============================================================
+		   Music Pagination Css Start
+	  ============================================================
+*/
+.msl-pagination-wrap{
+	float: left;
+	width: 100%;
+	margin: 30px 0;
+	padding: 12px 0 0;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #e4e4e4;
+}
+.msl-pagination-wrap > div{
+	width: 33.3%;
+	float: left;
+}
+.page-numbers,
+.page-result{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: normal;
+	border:1px solid #e4e4e4;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	margin: 0 6px;
+	position: relative;
+	padding: 4px 0;
+}
+.page-numbers:first-child,
+.page-result:first-child{
+	margin-left:0;
+}
+.page-numbers:last-child,
+.page-result:last-child{
+	margin-right:0;
+}
+.page-result.page-title{
+	width: auto;
+	border:none;
+	font-size: 14px;
+	color: #666;
+	margin: 0 14px 0 0;
+}
+.page-result.page-title:hover{
+	color: #666;
+}
+.msl-pagination-wrap > div.pull-right{
+	text-align: right;
+}
+.msl-pagination{
+	text-align: center;
+}
+.msl-pagination .page-numbers{
+	border:none;
+	height: inherit;
+	margin: 0 2px;
+	width: 15px;
+	padding-bottom:20px;
+}
+.msl-pagination .page-numbers:before{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	content: "";
+	height: 2px;
+	width: 100%;
+}
+.msl-pagination .page-numbers:hover:before,
+.msl-pagination .page-numbers.active:before{
+	opacity: 1;
+}
+
+.mg-bottom{
+	margin: 0 0 20px;
+}
+.mg-20{
+	margin: 0 0 20px;
+}
+.mg-30{
+	margin: 0 0 30px;
+}
+.mg-40{
+	margin: 0 0 40px;
+}
+.bottom-arrow{
+	position: relative;
+	padding: 0 0 30px;
+	margin: 0;
+}
+.bottom-arrow.slick-dotted.slick-slider{
+	margin: 0;
+}
+.bottom-arrow:before{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 100px;
+	height: 1px;
+	content: "";
+	background-color: #ccc;
+}
+.bottom-arrow .slick-arrow{
+	bottom: 0;
+	right: 0;
+	top: auto;
+	left: auto;
+	color: #999;
+	transform: translate(0);
+	-o-transform: translate(0);
+	-ms-transform: translate(0);
+	-moz-transform: translate(0);
+	-webkit-transform: translate(0);
+}
+.bottom-arrow .slick-prev{
+	right: 45px;
+}
+
+
+
+
+/*
+	  ============================================================
+		Home 2
+		   				Meta tags
+	  ============================================================
+*/
+.kf_meta_tags{
+	float: left;
+	width: auto;
+}
+.kf_meta_tags li{
+	float: left;
+	width: auto;
+	position: relative;
+	margin-right: 15px;
+	padding-right: 15px;
+}
+.kf_meta_tags li:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	right: 0px;
+	bottom: 0px;
+	border-right: 1px solid #a5a5a5;
+}
+.kf_meta_tags li span{
+	float: left;
+	width: 18px;
+	text-align:center;
+	display: inline-block;
+	margin-right: 5px;
+}
+.kf_meta_tags strong{
+	font-size: 14px;
+	font-weight: normal;
+	color:#a5a5a5;
+	text-transform: capitalize;
+}
+.kf_meta_tags p{
+	line-height: 19px;
+	margin-bottom: 0px;
+	color:#333333;
+}
+/*
+	  ============================================================
+		   				Meta Quotes 2
+	  ============================================================
+*/
+.meta_quote{
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.meta_quote li{
+	float: left;
+	width: auto;
+	list-style: none;
+	margin-right: 30px;
+}
+.meta_quote li:last-child{
+	margin-right: 0px;
+}
+.meta_quote li a,
+.meta_quote li span{
+	font-size: 14px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.meta_quote li a{
+	display: inline-block;
+	margin-left: 5px;
+}
+.meta_quote li:last-child a{
+	margin-left: 0px;
+}
+ol.meta_quote li a b{
+	color: #333333;
+	font-weight: normal;
+}
+ol.meta_quote li a i{
+	margin-right: 5px;
+}
+/*
+	  ============================================================
+		Home 2
+		   			 buttons styles
+	  ============================================================
+*/
+.kf_radio_buttons{
+	float: right;
+	width: auto;
+	padding: 4px 0px 0px
+}
+.kf_radio_buttons a{
+	float: left;
+	margin-right: 15px;
+}
+.kf_radio_buttons a:last-child{
+	margin-right: 0px;
+}
+.radio_btn{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 35px;
+	font-size: 15px;
+	background: #333;
+	color:#fff;
+}
+.btn_normal{
+	display: inline-block;
+	padding: 6px 20px;
+	text-transform: capitalize;
+	font-size: 15px;
+	border-radius: 30px;
+}
+.border_btn{
+	background: transparent;
+	color:#fff;
+	border:2px solid #fff;
+}
+.bk_border_btn{
+	border:1px solid #4b4b4b;
+	color:#4b4b4b;
+}
+.bk_border_btn:hover{
+	background: #4b4b4b;
+	color:#fff;
+}
+.bgcolr-default:hover{
+	background: #eee;
+}
+/*
+	  ============================================================
+		Home 2
+		   			 overlay
+	  ============================================================
+*/
+.overlay{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+.overlay:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: url("../images/pettren_img1.png") repeat scroll 0 0%, #0f0f0f none repeat scroll 0 0;
+	opacity: 0.85;
+	z-index: -1;
+}
+
+
+/*
+	  ============================================================
+		Home 2
+		   			social icons
+	  ============================================================
+*/
+.social_media_icons{
+	float: left;
+	width: 100%;
+	padding: 20px 0px;
+}
+.social_icons{
+	float: left;
+	width: 100%;
+}
+.social_icons li{
+	display: inline-block;
+	width: auto;
+	margin-right: 16px;
+}
+.social_icons li:last-child{
+	margin-right: 0px;
+}
+.social_icons li a{
+	display: inline-block;
+	border-radius: 30px;
+	background: transparent;
+	border:1px solid #fff;
+	text-transform: uppercase;
+	padding: 10px 20px 10px 55px;
+	color:#fff;
+	position: relative;
+	font-weight: 600;
+}
+.social_icons li a:before{
+	 background: #fff none repeat scroll 0 0;
+    border-radius: 30px;
+    bottom: 5px;
+    content: "";
+    left: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 17%;
+    opacity: 0;
+}
+.social_icons li a i{
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	color:#ee351f;
+	background: #fff;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -18px;
+	top:50%;
+	left: 4px;
+}
+.social_icons li a b{
+    left: 0;
+    margin-top: -11px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0%;
+    opacity: 0;
+}
+.social_icons li:hover a:before{
+	width: 92%;
+	opacity: 1;
+}
+.social_icons li:hover a i{
+
+}
+.social_icons li:hover a b{
+	top:50%;
+	opacity: 1;
+}
+
+/*
+	  ============================================================
+		   			social icons 2
+	  ============================================================
+*/
+.kode_social_icons{
+	float: left;
+	width: 100%;
+}
+.kode_social_icons li{
+	display: inline-block;
+	margin-right: 2px;
+}
+.kode_social_icons li:last-child{
+	margin-right: 0px;
+}
+.kode_social_icons li a{
+	display: inline-block;
+	border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    height: 36px;
+    line-height: 35px;
+    text-align: center;
+    width: 36px;
+}
+.kode_social_icons li:hover a{
+	background: #fff;
+
+}
+/*
+	  ============================================================
+		Home 2
+		   			Heading style
+	  ============================================================
+*/
+.heading_ho2{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 36px;
+}
+.heading_ho2 h3{
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	color:#333;
+	padding-bottom: 9px;
+	margin-top: -6px;
+}
+.heading_ho2 h3:before,
+.heading_ho2 h3:after{
+	position: absolute;
+	content: "";
+	bottom:0px;
+	left: 0px;
+	right: 0px;
+	border-bottom:1px solid; 
+	width: 60px;
+	margin: 0 auto;
+}
+.heading_ho2 h3:after{
+	bottom: -6px;
+    right: -20px;
+}
+
+
+/*
+	  ============================================================
+		Home 2
+		   			hover effects
+	  ============================================================
+*/
+.effect{
+	position: relative;
+}
+.effect figure:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0;
+	border-radius: 100%;
+	z-index: 1;
+}
+.effect:hover figure:before{
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.7;
+}
+.effect figure{
+	overflow: hidden;
+	border:8px solid;
+}
+.effect figure a{
+	display: inline-block;
+	font-size: 0px;
+	color: #fff;
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -15px auto;
+	text-align: center;
+	z-index: 2;
+}
+.effect:hover figure a{
+	font-size: 30px;
+}
+.kf_music_albums figure{
+	border:2px solid #333;
+}
+.kf_music_albums figure img{
+	-o-transform: scale(1) rotateZ(0deg);
+	-webkit-transform: scale(1) rotateZ(0deg);
+	-moz-transform: scale(1) rotateZ(0deg);
+	transform: scale(1) rotateZ(0deg);
+	
+}
+.effect:hover figure img{
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+div.kf_music_albums:hover figure img{
+	-o-transform: scale(1) rotateZ(340deg);
+	-moz-transform: scale(1) rotateZ(340deg);
+	-webkit-transform: scale(1) rotateZ(340deg);
+	transform: scale(1) rotateZ(340deg);
+}
